@@ -106,6 +106,13 @@ nav ul a {
     flex: 0 0 100%;
   }
 }
+@media (max-width: 481px) {
+  .main .row div {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+  }
+}
 
 .main .row div .text {
   text-align: center;
@@ -218,5 +225,10 @@ footer .nav ul {
 footer .nav ul a {
   text-decoration: none;
   color: #fff;
+}
+
+footer i {
+  margin-right: 10px;
+  font-size: 20px;
 }
 /*# sourceMappingURL=style.css.map */
