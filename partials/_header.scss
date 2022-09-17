@@ -1,0 +1,30 @@
+hgroup {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+nav {
+  padding: 15px;
+  @media (max-width: 481px) {
+    padding: 5px;
+  }
+  ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+
+    @media (max-width: 481px) {
+      justify-content: space-between;
+      align-items: center;
+      width: 100%;
+    }
+    a {
+      text-decoration: none;
+      color: #000;
+      @media (max-width: 481px) {
+        margin-right: 10px;
+        font-size: 0.9rem;
+      }
+    }
+  }
+}
